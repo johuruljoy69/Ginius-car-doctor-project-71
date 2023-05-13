@@ -41,7 +41,7 @@ const AuthProvider = ({children}) => {
                 const loggedUser = {
                     email: currentUser.email
                 }
-                fetch('http://localhost:5000/jwt', {
+                fetch('https://ginius-car-doctor-server-71.vercel.app/jwt', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'
